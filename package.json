@@ -1,6 +1,26 @@
 {
   "dependencies": {
+    "express": "^4.17.2",
     "inquirer": "^8.2.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "name": "employee-management-system",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmjeetnamol/Employee-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmjeetnamol/Employee-Management-System/issues"
+  },
+  "homepage": "https://github.com/karmjeetnamol/Employee-Management-System#readme"
 }

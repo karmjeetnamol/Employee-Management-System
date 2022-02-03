@@ -208,3 +208,5 @@ const addEmployees = () => {
 const updateEmpRole = () => {
     questions();
 };
+
+questions();
