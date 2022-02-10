@@ -24,7 +24,7 @@ const questions = () => {
                 "Update Employee Role",
                 "View All Roles",
                 "Add Role",
-                "View All Department",
+                "View All Departments",
                 "Add Department",
                 "Quit",
             ],
@@ -50,7 +50,7 @@ const questions = () => {
                 case "View All Departments":
                     viewDepartments();
                     break;
-                case "Add Department":
+                case "Add Departments":
                     addDepartment();
                     break;
                 default:
@@ -103,7 +103,7 @@ const addDepartment = () => {
         .prompt([
             {
                 type: "input",
-                message: "What is the new department's name?",
+                message: "Name of new department?",
                 name: "newDepartment",
             }
         ])
@@ -125,17 +125,17 @@ const addRoles = () => {
         .prompt([
             {
                 type: "input",
-                message: "What is the new role?",
+                message: "Name  the new role?",
                 name: "newRoleTitle",
             },
             {
-                type: "number",
-                message: "What is the salary of the new role?",
+                type: "input",
+                message: "Salary of the new role?",
                 name: "newRoleSalary",
             },
             {
-                type: "number",
-                message: "What Department is this role apart of?(department #)",
+                type: "input",
+                message: "What Department does the role brlong to?",
                 name: "newRoleDepartment",
             },
 
@@ -165,22 +165,22 @@ const addEmployees = () => {
             .prompt([
                 {
                     type: "input",
-                    message: "What is the first name of the new Employee?",
+                    message: "What is the new Employee's name?",
                     name: "firstName",
                 },
                 {
                     type: "input",
-                    message: "What is the last name of the new Employee?",
+                    message: "What is the  new Employee's last name?",
                     name: "lastName",
                 },
                 {
                     type: "number",
-                    message: "What is the role Id that the new Employee belongs to?",
+                    message: "What is the  new Employee's role Id?",
                     name: "roleId",
                 },
                 {
                     type: "number",
-                    message: "What is the  Id of the new Employee manager?",
+                    message: "What is new Employee's manager Id?",
                     name: "managerId",
                 },
             ])

@@ -11,6 +11,7 @@ I created the Employee Management System with npm packages: MySQL, Node, Inquire
 
 # Video Link:
 A Link for video showing an example user input is shown below:
+
 [![Video](https://i9.ytimg.com/vi/H9LvkP39_tk/mq2.jpg?sqp=CIyW7Y8G&rs=AOn4CLAm3BRXjHM9l6WtROVWYqj_5BABQQ)](https://youtu.be/H9LvkP39_tk);
 
  
@@ -41,5 +42,5 @@ Designed the following database schema containing three tables:
      last_name,
 
      role_id,
-     
+
      manager_id
